@@ -1,11 +1,11 @@
-# 🎣 Entendendo Phishing e Engenharia Social — Desafio DIO (Cibersegurança)
+# Entendendo Phishing e Engenharia Social — Desafio DIO (Cibersegurança)
 
 > Projeto educacional desenvolvido como entrega do desafio de laboratório da **DIO (Digital Innovation One)**.
 > O objetivo é **compreender como funcionam os ataques de phishing para aprender a se defender deles** — em um ambiente de laboratório isolado, controlado e exclusivamente para fins didáticos.
 
 ---
 
-## ⚠️ Aviso Ético e Legal (leia antes de tudo)
+## Aviso Ético e Legal (leia antes de tudo)
 
 Este repositório é **material de estudo defensivo**. Ele documenta, em alto nível, como um ataque de phishing é demonstrado em um laboratório de segurança **para que profissionais e usuários saibam reconhecê-lo e se proteger**.
 
@@ -17,7 +17,7 @@ Este repositório é **material de estudo defensivo**. Ele documenta, em alto n�
 
 ---
 
-## 🎯 Objetivos de Aprendizagem
+## Objetivos de Aprendizagem
 
 Ao estudar este material, você será capaz de:
 
@@ -29,7 +29,7 @@ Ao estudar este material, você será capaz de:
 
 ---
 
-## 🧠 Conceito: o que é Phishing?
+## Conceito: o que é Phishing?
 
 **Phishing** é uma técnica de **engenharia social** em que um atacante se passa por uma entidade confiável (um banco, uma rede social, uma empresa) para enganar a vítima e induzi-la a entregar informações sensíveis — tipicamente **usuário e senha**.
 
@@ -55,7 +55,7 @@ O ataque explora o **elo mais frágil da segurança: o ser humano**. Nenhum fire
 
 ---
 
-## 🧰 Sobre a ferramenta SET (Social-Engineer Toolkit)
+## Sobre a ferramenta SET (Social-Engineer Toolkit)
 
 O **SET** (`setoolkit`) é um framework **de código aberto** desenvolvido pela TrustedSec, incluído por padrão em distribuições de *pentest* como o **Kali Linux**. Ele é usado por **profissionais de segurança autorizados** para **simular** ataques de engenharia social em testes de intrusão e em **campanhas de conscientização** — por exemplo, para treinar os funcionários de uma empresa a não caírem em golpes.
 
@@ -82,7 +82,7 @@ A ferramenta então hospeda **localmente** (na própria máquina de teste, em re
 
 ---
 
-## 🧪 Montando o laboratório seguro
+## Montando o laboratório seguro
 
 > **Regra de ouro:** nada sai do laboratório. Rede isolada, contas de teste, zero exposição à internet.
 
@@ -106,7 +106,7 @@ A ferramenta então hospeda **localmente** (na própria máquina de teste, em re
 
 ---
 
-## 🔎 Resultados e observações do laboratório
+## Resultados e observações do laboratório
 
 *(Preencha esta seção com suas próprias anotações e, opcionalmente, capturas de tela na pasta `/images`.)*
 
@@ -120,26 +120,26 @@ A ferramenta então hospeda **localmente** (na própria máquina de teste, em re
 
 ---
 
-## 🛡️ Como se defender de phishing (a parte que mais importa)
+## Como se defender de phishing (a parte que mais importa)
 
 Para o usuário final:
 
-- 🔗 **Confira a URL** antes de digitar qualquer senha. Desconfie de domínios estranhos, encurtadores e erros de digitação.
-- 🔐 **Ative a autenticação em dois fatores (MFA/2FA).** Mesmo que a senha vaze, o atacante não entra.
-- 🧩 **Use um gerenciador de senhas.** Além de senhas únicas por site, ele **não preenche** credenciais em domínios falsos — um ótimo detector de phishing.
-- 🚫 **Não clique em links de mensagens urgentes.** Acesse o site digitando o endereço oficial no navegador.
-- 📧 **Desconfie do tom de urgência e ameaça** ("sua conta será bloqueada em 24h").
+-  **Confira a URL** antes de digitar qualquer senha. Desconfie de domínios estranhos, encurtadores e erros de digitação.
+-  **Ative a autenticação em dois fatores (MFA/2FA).** Mesmo que a senha vaze, o atacante não entra.
+-  **Use um gerenciador de senhas.** Além de senhas únicas por site, ele **não preenche** credenciais em domínios falsos — um ótimo detector de phishing.
+-  **Não clique em links de mensagens urgentes.** Acesse o site digitando o endereço oficial no navegador.
+-  **Desconfie do tom de urgência e ameaça** ("sua conta será bloqueada em 24h").
 
 Para organizações:
 
-- 🎓 **Treinamento e simulações autorizadas** de phishing para os colaboradores.
-- 🛂 **MFA obrigatório** e políticas de senha fortes.
-- 📨 **Filtros anti-phishing**, DMARC/SPF/DKIM e proteção de e-mail.
-- 📝 **Processo claro de denúncia** de mensagens suspeitas.
+-  **Treinamento e simulações autorizadas** de phishing para os colaboradores.
+-  **MFA obrigatório** e políticas de senha fortes.
+-  **Filtros anti-phishing**, DMARC/SPF/DKIM e proteção de e-mail.
+-  **Processo claro de denúncia** de mensagens suspeitas.
 
 ---
 
-## 📂 Estrutura do repositório
+##  Estrutura do repositório
 
 ```
 cibersecurity-desafio-phishing/
@@ -151,7 +151,7 @@ cibersecurity-desafio-phishing/
 
 ---
 
-## 📚 Recursos úteis
+##  Recursos úteis
 
 - Documentação do SET (TrustedSec) — framework open source de engenharia social.
 - [GitHub Docs](https://docs.github.com) — guia completo de uso do GitHub.
@@ -161,7 +161,7 @@ cibersecurity-desafio-phishing/
 
 ---
 
-## 👤 Autor
+##  Autor
 
 Projeto desenvolvido por **brenoluizdev** como entrega do desafio de laboratório da DIO.
 
